@@ -29,5 +29,5 @@ Follow the following steps in your console:
 ### Result
 You should see te following result
 
-![Result](https://github.com/jeffreyvanhees/amatis-assessment/raw/master/screenshot.png)
+![Result](https://github.com/jeffreyvanhees/amatis-assessment/blob/master/screenshot.png)
 
