@@ -24,8 +24,8 @@ Route::get('/', function () {
  */
 Route::get('api/cart', 'CartController@index');
 Route::post('api/cart/{product}', 'CartController@add');
-Route::delete('api/cart/{product}', 'CartController@delete');
 Route::delete('api/cart/clear', 'CartController@clear');
+Route::delete('api/cart/{product}', 'CartController@delete');
 
 /**
  * Product routes

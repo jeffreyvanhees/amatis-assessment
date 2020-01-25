@@ -51556,7 +51556,7 @@ __webpack_require__.r(__webpack_exports__);
       var _this3 = this;
 
       var commit = _ref4.commit;
-      return axios["delete"]('api/cart').then(function (response) {
+      return axios["delete"]('api/cart/clear').then(function (response) {
         _this3.dispatch('fetchCartItems');
       });
     }

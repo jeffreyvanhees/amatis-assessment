@@ -33,7 +33,7 @@ export default {
 
         // Clear all cart items
         clearCartItems({commit}) {
-            return axios.delete('api/cart')
+            return axios.delete('api/cart/clear')
                 .then(response => {
                     this.dispatch('fetchCartItems');
                 });
